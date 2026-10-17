@@ -1,0 +1,17 @@
+node_modules/
+.next/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+.local/
+.secrets/
+.credentials/
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+.DS_Store
+*.pem
+*.key

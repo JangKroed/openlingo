@@ -1,0 +1,11 @@
+{
+  "name": "openlingo",
+  "private": true,
+  "version": "0.0.1",
+  "packageManager": "pnpm@12.11.2",
+  "scripts": {
+    "dev": "pnpm --parallel --filter './apps/*' dev",
+    "check": "pnpm -r --if-present check",
+    "test": "pnpm -r --if-present test"
+  }
+}
